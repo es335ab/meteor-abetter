@@ -11,7 +11,7 @@ if (Meteor.isClient) {
 
   Template.hello.events({
     'click input' : function () {
-      var getName = prompt('なまえをいれてね', '')
+      var getName = prompt('今のキモチをひとこと(・ω<)', '')
       if(getName !== null) {
         Abe.insert({
           name: getName,

@@ -1,5 +1,6 @@
 <head>
   <title>abetter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0, maximum-scale=10">
 </head>
 
 <body>
@@ -8,8 +9,8 @@
 
 <template name="hello">
   <h1>{{headline}}</h1>
-  <input type="button" value="投稿しちゃうぞ！" />
+  <input type="button" value="今のキモチをひとこと(・ω<)" />
   {{#each abes}}
-    <p id="{{_id}}">{{name}} <span class="x">X</span></p>
+    <p id="{{_id}}">{{name}} <span class="x">[x]</span></p>
   {{/each}}
 </template>
